@@ -1,0 +1,130 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.font__kaushan {
+  font-family: "Kaushan Script", cursive;
+}
+.font__harmattan {
+  font-family: "Harmattan", sans-serif;
+}
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.landing-gradient {
+  background: linear-gradient(135deg, #07132b 10%, #02060c);
+  background-size: 110%;
+}
+
+.gradient-text {
+  background-color: #f09433 !important;
+  background: linear-gradient(
+    45deg,
+    #cc2366,
+    #e6683c,
+    #f09433,
+    yellow
+  ) !important;
+  // background-size: 110%;
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  -moz-text-fill-color: transparent !important;
+  padding-right: 5px !important;
+}
+
+.gradient-text-logo {
+  background-color: #2207c9 !important;
+  background: linear-gradient(45deg, #ee34d9, #6d31a7 40%, #10f3f6) !important;
+  // background-size: 110%;
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  -moz-text-fill-color: transparent !important;
+  padding-right: 5px !important;
+}
+
+.nav_link_text_shadow_purple {
+  text-shadow: 5px 6px 7.5px rgb(109, 49, 167, 0.8);
+}
+.hero_text_shadow_blue {
+  text-shadow: 5px 6px 7.5px rgb(34, 7, 201, 0.45);
+}
+.hero_text_shadow_blue1 {
+  text-shadow: 5px 6px 7.5px rgb(34, 7, 201);
+}
+.nav_link_box_shadow_blue {
+  box-shadow: -5px -6px 7.5px rgb(109, 49, 167, 0.6) inset;
+}
+.nav_link_box_shadow_blue:hover {
+  box-shadow: 5px 4px 7.5px #1DA1F2;
+  color: #1DA1F2;
+}
+
+.nav_link_box_shadow_purple {
+  box-shadow: -5px -6px 7.5px rgb(109, 49, 167, 0.6) inset;
+}
+.nav_link_box_shadow_purple:hover {
+  box-shadow: 5px 4px 7.5px #5865F2;
+  color: #5865F2;
+}
+
+.button-gradient-1 {
+  background: linear-gradient(90deg, #2207c9 -14.53%, #ee34d9 126.11%);
+}
+
+.reflect {
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.15));
+}
+
+.reflect1 {
+  -webkit-box-reflect: below -5px linear-gradient(transparent, rgba(0, 0, 0, 0.15));
+}
+
+.fa {
+  color: transparent !important;
+  background-clip: text !important;
+  background-image: linear-gradient(
+    45deg,
+    #ee34d9,
+    #6d31a7 40%,
+    #8ef5fb
+  ) !important;
+}
+
+.bubble_blur {
+  width: 300px;
+  height: 650px;
+  bottom: 25%;
+  filter: blur(200px);
+}
+.mantine-Drawer-closeButton {
+  svg {
+    width: 22.5px;
+    height: 22.5px;
+  }
+}
