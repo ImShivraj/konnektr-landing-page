@@ -1,7 +1,7 @@
 import React, { createContext, ReactNode, useContext, useState } from "react";
 import { Blog, User } from "../types/index";
 
-interface AppContextInterface {
+export interface AppContextInterface {
   drawerActive: boolean;
   setDrawerActive: React.Dispatch<React.SetStateAction<boolean>>;
   loginModalActive: boolean;

@@ -6,19 +6,22 @@ import { Tooltip } from "@mantine/core";
 
 export const headerLinks = [
   {
-    link: "/home",
+    link: "/",
     label: "Home",
     id: "home",
+    type: "route",
   },
   {
-    link: "/networks",
-    label: "Networks",
-    id: "networks",
+    link: "https://equal-dill-1d7.notion.site/Konnektr-5a7909f5ec5641e09df5bcda463f7b0b",
+    label: "About",
+    id: "about",
+    type: "link",
   },
   {
-    link: "/developers",
-    label: "Developers",
-    id: "developers",
+    link: "https://equal-dill-1d7.notion.site/Konnektr-5a7909f5ec5641e09df5bcda463f7b0b",
+    label: "Team",
+    id: "team",
+    type: "link",
   },
   {
     link: "https://twitter.com/konnektrhq",
@@ -33,6 +36,7 @@ export const headerLinks = [
       </Tooltip>
     ),
     id: "twitter",
+    type: "link",
   },
   {
     link: "https://discord.com/invite/vChz9grSJe",
@@ -47,6 +51,7 @@ export const headerLinks = [
       </Tooltip>
     ),
     id: "discord",
+    type: "link",
   },
 ];
 
@@ -102,11 +107,31 @@ export const categories = [
 ];
 
 export const drawerLinks = [
-  { label: "Home", link: "/", Icon: AiFillHome },
-  { label: "Networks", link: "/networks", Icon: MdOutlineSocialDistance },
-  { label: "Developers", link: "/developers", Icon: BsFileCodeFill },
-  { label: "Twitter", link: "https://twitter.com/konnektrhq", Icon: BsTwitter },
-  { label: "Discord", link: "https://discord.com/invite/vChz9grSJe", Icon: FaDiscord },
+  { label: "Home", link: "/", Icon: AiFillHome, type: "route" },
+  {
+    label: "About",
+    link: "https://equal-dill-1d7.notion.site/Konnektr-5a7909f5ec5641e09df5bcda463f7b0b",
+    Icon: MdOutlineSocialDistance,
+    type: "link",
+  },
+  {
+    label: "Team",
+    link: "https://equal-dill-1d7.notion.site/Konnektr-5a7909f5ec5641e09df5bcda463f7b0b",
+    Icon: BsFileCodeFill,
+    type: "link",
+  },
+  {
+    label: "Twitter",
+    link: "https://twitter.com/konnektrhq",
+    Icon: BsTwitter,
+    type: "link",
+  },
+  {
+    label: "Discord",
+    link: "https://discord.com/invite/vChz9grSJe",
+    Icon: FaDiscord,
+    type: "link"
+  },
 ];
 
 export const earnLinks = [

@@ -98,7 +98,7 @@ const Hero = () => {
                   onClick={() => setImgRollAnimation(!imgRollAnimation)}
                 >
                   <img
-                    src="/fantomUniverse.png"
+                    src="fantomUniverse.png"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full  shadow-whiteArrow hover:shadow-pinkArrow transition-all hover:scale-125 cursor-pointer"
                   />
@@ -114,7 +114,7 @@ const Hero = () => {
                   transition={{ duration: 0.75, ease: "backOut", delay: 0.25 }}
                 >
                   <img
-                    src="/buildSpace.jpg"
+                    src="buildSpace.jpg"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full shadow-whiteArrow hover:shadow-pinkArrow transition-all hover:scale-125 cursor-pointer"
                   />
@@ -128,7 +128,7 @@ const Hero = () => {
                   transition={{ duration: 0.75, ease: "backOut", delay: 0.25 }}
                 >
                   <img
-                    src="/marketingMetaverse.jpg"
+                    src="marketingMetaverse.jpg"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full  shadow-whiteArrow hover:shadow-pinkArrow transition-all hover:scale-125 cursor-pointer"
                   />
@@ -144,7 +144,7 @@ const Hero = () => {
                   transition={{ duration: 0.75, ease: "backOut", delay: 0.25 }}
                 >
                   <img
-                    src="/learnWeb3Dao.jpg"
+                    src="learnWeb3Dao.jpg"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full  shadow-whiteArrow hover:shadow-pinkArrow transition-all hover:scale-125 cursor-pointer "
                   />
@@ -160,7 +160,7 @@ const Hero = () => {
                   transition={{ duration: 0.75, ease: "backOut", delay: 0.25 }}
                 >
                   <img
-                    src="/productHouse.jpg"
+                    src="productHouse.jpg"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full  shadow-whiteArrow hover:shadow-pinkArrow transition-all hover:scale-125 cursor-pointer "
                   />
@@ -176,7 +176,7 @@ const Hero = () => {
                   transition={{ duration: 0.75, ease: "backOut", delay: 0.25 }}
                 >
                   <img
-                    src="/web3Learn.jpg"
+                    src="web3Learn.jpg"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full  shadow-whiteArrow hover:shadow-pinkArrow transition-all hover:scale-125 cursor-pointer "
                   />
@@ -248,7 +248,7 @@ const Hero = () => {
               <div className="flex relative left-10">
                 <span className="reflect" style={{ zIndex: "6" }}>
                   <img
-                    src="/fantomUniverse.png"
+                    src="fantomUniverse.png"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full shadow-whiteArrow"
                   />
@@ -258,7 +258,7 @@ const Hero = () => {
                   style={{ zIndex: "5", right: "15px" }}
                 >
                   <img
-                    src="/buildSpace.jpg"
+                    src="buildSpace.jpg"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full shadow-whiteArrow"
                   />
@@ -268,7 +268,7 @@ const Hero = () => {
                   style={{ zIndex: "4", right: "30px" }}
                 >
                   <img
-                    src="/marketingMetaverse.jpg"
+                    src="marketingMetaverse.jpg"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full shadow-whiteArrow"
                   />
@@ -278,7 +278,7 @@ const Hero = () => {
                   style={{ zIndex: "2", right: "45px" }}
                 >
                   <img
-                    src="/learnWeb3Dao.jpg"
+                    src="learnWeb3Dao.jpg"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full shadow-whiteArrow"
                   />
@@ -288,7 +288,7 @@ const Hero = () => {
                   style={{ zIndex: "1", right: "60px" }}
                 >
                   <img
-                    src="/productHouse.jpg"
+                    src="productHouse.jpg"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full  shadow-whiteArrow"
                   />
@@ -298,7 +298,7 @@ const Hero = () => {
                   style={{ zIndex: "0", right: "75px" }}
                 >
                   <img
-                    src="/web3Learn.jpg"
+                    src="web3Learn.jpg"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full  shadow-whiteArrow"
                   />

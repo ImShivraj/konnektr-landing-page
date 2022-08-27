@@ -80,6 +80,9 @@ module.exports = {
         "55-rem": "55rem",
         "60-rem": "60rem",
       },
+      maxWidth: () => ({
+        "87.5%": "87.5%",
+      }),
       animation: {
         float: "float 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
         float1: "float1 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",

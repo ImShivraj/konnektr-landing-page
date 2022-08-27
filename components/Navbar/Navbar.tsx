@@ -1,17 +1,12 @@
 import React from "react";
-import {
-  createStyles,
-  Header,
-  Container,
-  Group,
-  Burger,
-} from "@mantine/core";
+import { createStyles, Header, Container, Group, Burger } from "@mantine/core";
 import classnames from "classnames";
 import { useAppStateContext } from "../../context/contextProvider";
 import { headerLinks } from "../../assets/links";
 import styles from "./Navbar.module.scss";
-import { network } from "../../assets/images";
+import { network } from "../../assets/images/index";
 import Image from "next/image";
+import Link from "next/link";
 
 const HEADER_HEIGHT = 80;
 
@@ -105,13 +100,15 @@ const Navbar = () => {
       `py-2 px-5 mx-1 transition-all font-semibold hover:text-white text-gray-600 text-md nav__link ${
         !(id === "twitter" || id === "discord") && styles.nav__link
       }
-      ${
-        !(id === "twitter" || id === "discord") && "uppercase"
-      } font__kaushan`
+      ${!(id === "twitter" || id === "discord") && "uppercase"} font__kaushan`
     );
 
   const items = headerLinks.map((link) => {
-    return (
+    return link.type === "route" ? (
+      <Link href={link.link} key={link.id}>
+        <a className={getLinkClasses(link.id)}>{link.label}</a>
+      </Link>
+    ) : (
       <a
         key={link.id}
         href={link.link}

@@ -81,16 +81,16 @@ a {
   box-shadow: -5px -6px 7.5px rgb(109, 49, 167, 0.6) inset;
 }
 .nav_link_box_shadow_blue:hover {
-  box-shadow: 5px 4px 7.5px #1DA1F2;
-  color: #1DA1F2;
+  box-shadow: 5px 4px 7.5px #1da1f2;
+  color: #1da1f2;
 }
 
 .nav_link_box_shadow_purple {
   box-shadow: -5px -6px 7.5px rgb(109, 49, 167, 0.6) inset;
 }
 .nav_link_box_shadow_purple:hover {
-  box-shadow: 5px 4px 7.5px #5865F2;
-  color: #5865F2;
+  box-shadow: 5px 4px 7.5px #5865f2;
+  color: #5865f2;
 }
 
 .button-gradient-1 {
@@ -121,6 +121,13 @@ a {
   height: 650px;
   bottom: 25%;
   filter: blur(200px);
+
+  @media screen and (max-width: 600px) {
+    width: 100px;
+    height: 500px;
+    bottom: 32.5%;
+    filter: blur(100px);
+  }
 }
 .mantine-Drawer-closeButton {
   svg {
