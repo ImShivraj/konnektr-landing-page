@@ -63,7 +63,7 @@ const Hero = () => {
           </p>
           <div className="flex items-center gap-10 justify-center lg1300:justify-start sm600:my-12 my-10">
             <a
-              href="https://tally.so/r/3ja5j4"
+              href="https://form.waitlistpanda.com/go/rPsZAfsVAiLakhDAho2D"
               target="_blank"
               rel="noreferrer"
               className="text-white font-medium tracking-widest  button-gradient-1 landing-review2-reverse px-4 py-3 rounded flex items-center gap-2 w-fit hover:scale-105 transition-all"
@@ -217,7 +217,7 @@ const Hero = () => {
           </p>
           <div className="flex items-center gap-10 justify-center my-10">
             <a
-              href="https://tally.so/r/3ja5j4"
+              href="https://form.waitlistpanda.com/go/rPsZAfsVAiLakhDAho2D"
               target="_blank"
               rel="noreferrer"
               className="text-white font-medium tracking-widest button-gradient-1 landing-review2-reverse px-4 py-3 rounded shadow flex items-center gap-2 w-fit"

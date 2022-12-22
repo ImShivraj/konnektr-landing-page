@@ -154,7 +154,7 @@ const Navbar = () => {
               style={{ width: "3px" }}
             />
             <a
-              href="https://tally.so/r/3ja5j4"
+              href="https://form.waitlistpanda.com/go/rPsZAfsVAiLakhDAho2D"
               target="_blank"
               rel="noreferrer"
               className="font__kaushan text-white py-2 px-7 rounded font-medium tracking-widest button-gradient-1 hover:scale-105 transition-all"
